@@ -7,5 +7,11 @@
         <node kind="database" negative="1" />
       </scope>
     </mapping>
+    <mapping uuid="cc17dc14-ce65-4499-b156-dfc8d679c98d" name="test-app@127.0.0.1 Mapping">
+      <data-sources db="0434c862-3309-41a3-ad6e-ee7acb260fac" ddl="a74adaa8-7d2e-475c-b389-a3b572e79cab" />
+      <scope>
+        <node kind="database" negative="1" />
+      </scope>
+    </mapping>
   </component>
 </project>
