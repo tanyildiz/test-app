@@ -15,6 +15,15 @@
     <ul>
         <li>Your controller at <code>/Users/tanyildiz/Sites/test-app/src/Controller/MoviesController.php</code></li>
         <li>Your template at <code>/Users/tanyildiz/Sites/test-app/templates/movies/index.html.twig</code></li>
+        <li>movies
+            <code>
+                <ul>
+                    {% for movie in movies %}
+                    <li>{{ movie }}</li>
+                    {% endfor %}
+                </ul>
+            </code>
+        </li>
     </ul>
 </div>
 {% endblock %}
